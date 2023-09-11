@@ -3,6 +3,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+position: relative;
+}
+
+.head::after{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/assets/img/icone.svg');
 
 }
 
@@ -62,4 +76,33 @@
 .informacao .phone::before {
     background-image: url('/assets/img/phone.svg');
 
+}
+
+@media only screen and (min-width: 768px) {
+    .head {
+
+        display: grid;
+        grid-template-areas: 
+        "img title"
+        "img informacao"
+        ;
+
+
+    }
+
+    .head .img {
+        grid-area: img;
+        margin: 0 auto;
+    }
+
+    .head .title {
+        grid-area: title;
+        text-align: start;
+        max-width: 220px;
+    }
+
+    .head .informacao {
+
+        grid-area: informacao;
+    }
 }
