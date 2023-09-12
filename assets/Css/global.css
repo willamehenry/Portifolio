@@ -15,6 +15,17 @@ body {
     color: #fff;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+
 .main {
     margin: 1rem;
     padding: .5rem;
@@ -51,6 +62,8 @@ body {
     z-index: -1;
     transform: rotate(180deg);
 }
+
+
 
 
 @media only screen and (min-width: 768px) {
