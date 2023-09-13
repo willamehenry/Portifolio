@@ -16,7 +16,7 @@ position: relative;
     height: 2em;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/assets/img/icone.svg');
+    background-image: url('../img/icone.svg');
 
 }
 
@@ -60,27 +60,27 @@ position: relative;
 
 .informacao .job::before {
 
-    background-image: url('/assets/img/job.svg');
+    background-image: url('../img/job.svg');
 }
 
 .informacao .email::before {
-    background-image: url('/assets/img/email.svg');
+    background-image: url('../img/email.svg');
 
 }
 
 .informacao .location::before {
 
-    background-image: url('/assets/img/location.svg');
+    background-image: url('../img/location.svg');
 }
 
 .informacao .phone::before {
-    background-image: url('/assets/img/phone.svg');
+    background-image: url('../img/phone.svg');
 
 }
 
 
 .informacao .job2::before {
-    background-image: url('/assets/img/dev.png');
+    background-image: url('../img/dev.png');
     max-width: 150%;
     
     
