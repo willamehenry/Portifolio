@@ -77,6 +77,18 @@ position: relative;
     background-image: url('/assets/img/phone.svg');
 
 }
+
+
+.informacao .job2::before {
+    background-image: url('/assets/img/dev.png');
+    max-width: 150%;
+    
+    
+}
+
+
+
+
 .informacao a{
     color: #fff;
     text-decoration: none;

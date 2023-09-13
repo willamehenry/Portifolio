@@ -39,3 +39,13 @@
     margin-right: .5rem;
 }
 
+
+
+.a2:hover{
+
+    background-color: violet;
+
+    transition: .0s;
+    border-radius: .5rem;
+    margin-right: 60%;
+}
